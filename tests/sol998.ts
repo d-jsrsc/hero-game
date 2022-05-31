@@ -47,7 +47,7 @@ describe("sol998", () => {
     console.log("Your transaction signature", tx);
   });
 
-  it("mint hero", async () => {
+  it.only("mint hero", async () => {
     const owner = await createUser();
     // const { mint, mta } = await mintHero(owner);
     const name = "test"; // limit 32

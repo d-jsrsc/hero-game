@@ -1,13 +1,13 @@
 [features]
 seeds = false
-[programs.devnet]
+[programs.localnet]
 sol998 = "2xLDrcDhqtXeVPQE9Q9LmSqbc3aKXLzomA4BgrTGaHuB"
 
 [registry]
 url = "https://anchor.projectserum.com"
 
 [provider]
-cluster = "devnet"
+cluster = "localnet"
 wallet = "/Users/ttang/.config/solana/id.json"
 
 [scripts]
